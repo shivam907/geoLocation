@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GeoLocation</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Click the button to get your coordinates.</h1>
+
+      <button class="btn" onclick="getLocation()">Try It</button>
+      <div class="loc">
+        <div class="location">
+          <span id="lat-t"></span>
+          <span id="lat-d"></span>
+        </div>
+        <div class="location">
+          <span id="lon-t"></span>
+          <span id="lon-d"></span>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
